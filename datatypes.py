@@ -1,3 +1,4 @@
+#Comparison Operators
 sf_population, sf_area = 864816, 231.89
 rio_population, rio_area = 6453682, 486.5
 
