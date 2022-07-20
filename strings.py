@@ -40,3 +40,11 @@ total_sales = int(mon_sales)+int(tues_sales) + \
     int(wed_sales)+int(thurs_sales)+int(fri_sales)
 total_sales = str(total_sales)
 print("This week's total sales: " + total_sales)
+
+# Write two lines of code below, each assigning a value to a variable
+names = "john snow"
+age = 20
+
+# Now write a print statement using .format() to print out a sentence and the
+#   values of both of the variables
+print('His name is {} and is {} years old'.format(names.title(), age))
