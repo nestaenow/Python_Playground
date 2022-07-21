@@ -13,3 +13,5 @@ second_half = months[6:]
 # ['July', 'August', 'September', 'October', 'November', 'December']
 print(second_half)
 
+# Using the membership operators 'in' and 'not in'
+print('Sunday' in months, 'Sunday' not in months)
