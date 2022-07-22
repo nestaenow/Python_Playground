@@ -44,3 +44,8 @@ print(name)
 letters = ['a', 'b', 'c', 'd']
 letters.append('e')
 print(letters)
+
+# Tuples
+location = (13.4125, 103.866667)
+print("Latitude:", location[0])
+print("Longitude:", location[1])
