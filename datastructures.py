@@ -35,3 +35,12 @@ eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
 eclipse_dates = eclipse_dates[-3:]
 # This could equally work --> eclipse_dates = eclipse_dates[-3:len(eclipse_dates)
 print(eclipse_dates)
+
+# The join method
+name = "-".join(["Garcia", "O'Kelly"])
+print(name)
+
+# The append method
+letters = ['a', 'b', 'c', 'd']
+letters.append('e')
+print(letters)
