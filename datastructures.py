@@ -47,6 +47,9 @@ print(letters)
 
 # Tuples
 location = (13.4125, 103.866667)
+# Unpacking a tuple will be like this
+longitude, latitude = location
+
 print("Latitude:", location[0])
 print("Longitude:", location[1])
 
