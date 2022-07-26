@@ -49,3 +49,17 @@ print(letters)
 location = (13.4125, 103.866667)
 print("Latitude:", location[0])
 print("Longitude:", location[1])
+
+# Sets
+countries = ['Angola', 'Maldives', 'India', 'United States', 'India', 'Denmark', 'Sweden', 'Ghana']
+
+print(len(countries))
+print(countries[:5])
+# ['Angola', 'Maldives', 'India', 'United States', 'India']
+
+country_set = set(countries)
+print(country_set)
+
+country_set.add('Italy')
+country_set.pop()
+print(country_set)
