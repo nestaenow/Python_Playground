@@ -76,3 +76,11 @@ print(elements["helium"])
 # insert "lithium" with a value of 3 into the dictionary
 elements["lithium"] = 3
 print(elements)
+
+# Testing identity operators
+n = elements.get("dilithium")
+print(n is None)
+print(n is not None)
+
+# get with a default value
+print(elements.get('kryptonite', 'There\'s no such element!'))
