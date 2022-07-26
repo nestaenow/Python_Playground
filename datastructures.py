@@ -84,3 +84,15 @@ print(n is not None)
 
 # get with a default value
 print(elements.get('kryptonite', 'There\'s no such element!'))
+
+
+# Compoud Data Structures
+elements = {"hydrogen": {"number": 1,
+                         "weight": 1.00794,
+                         "symbol": "H"},
+            "helium": {"number": 2,
+                       "weight": 4.002602,
+                       "symbol": "He"}}
+
+print(elements["helium"])  # get and print the helium dictionary
+print(elements["hydrogen"]["weight"])  # get and print hydrogen's weight
