@@ -66,3 +66,13 @@ print(country_set)
 country_set.add('Italy')
 country_set.pop()
 print(country_set)
+
+# Dictionaries
+elements = {"hydrogen": 1, "helium": 2, "carbon": 6}
+
+# print the value mapped to "helium"
+print(elements["helium"]) 
+
+# insert "lithium" with a value of 3 into the dictionary
+elements["lithium"] = 3
+print(elements)
