@@ -94,5 +94,11 @@ elements = {"hydrogen": {"number": 1,
                        "weight": 4.002602,
                        "symbol": "He"}}
 
+# create a new oxygen dictionary
+oxygen = {"number": 8, "weight": 15.999, "symbol": "O"}
+# assign 'oxygen' as a key to the elements dictionary
+elements["oxygen"] = oxygen
+
+print('elements = ', elements)
 print(elements["helium"])  # get and print the helium dictionary
 print(elements["hydrogen"]["weight"])  # get and print hydrogen's weight
