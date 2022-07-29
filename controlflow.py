@@ -71,7 +71,7 @@ message = "Somebody who is {} years old will pay ${} to ride the bus.".format(
 print(message)
 
 
-# Test 1
+# Test 2
 # '''
 # You decide you want to play a game where you are hiding
 # a number from someone.  Store this number in a variable
@@ -92,3 +92,10 @@ elif guess == answer:
     result = "Nice!  Your guess matched the answer!"
 
 print(result)
+
+# Test 3
+errors = 3
+if errors:
+    print("You have {} errors to fix!".format(errors))
+else:
+    print("No errors to fix!")
