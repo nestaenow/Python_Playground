@@ -148,3 +148,14 @@ for word in sentence:
 # Write a for loop using range() to print out multiples of 5 up to 30 inclusive
 for i in range(5, 31, 5):
     print(i)
+
+# Test III
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+usernames = []
+
+# write your for loop here
+for name in names:
+    username = name.replace(' ', '_')
+    usernames.append(username.lower())
+
+print(usernames)
