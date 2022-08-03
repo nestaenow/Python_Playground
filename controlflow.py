@@ -121,3 +121,10 @@ else:
     result = "Oh dear, no prize this time."
 
 print(result)
+
+# Loops
+list_of_numbers = list(range(1, 10, 2))
+print(list_of_numbers)
+
+for number in list_of_numbers:
+    print(number)
