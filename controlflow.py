@@ -128,3 +128,23 @@ print(list_of_numbers)
 
 for number in list_of_numbers:
     print(number)
+
+# Test I
+# Creating a new list
+cities = ['new york city', 'mountain view', 'chicago', 'los angeles']
+capitalized_cities = []
+
+for city in cities:
+    capitalized_cities.append(city.title())
+
+# Test II
+sentence = ["the", "quick", "brown", "fox",
+            "jumped", "over", "the", "lazy", "dog"]
+
+# Write a for loop to print out each word in the sentence list, one word per line
+for word in sentence:
+    print(word)
+
+# Write a for loop using range() to print out multiples of 5 up to 30 inclusive
+for i in range(5, 31, 5):
+    print(i)
