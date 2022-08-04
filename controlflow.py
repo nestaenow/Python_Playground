@@ -190,3 +190,5 @@ for item in items:
     html_str += '<li>{}</li>\n'.format(item)
 html_str += '</ul>'
 print(html_str)
+
+print(list(range(0,-5)))
