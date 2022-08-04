@@ -159,3 +159,14 @@ for name in names:
     usernames.append(username.lower())
 
 print(usernames)
+
+# Test IV
+usernames = ["Joey Tribbiani", "Monica Geller",
+             "Chandler Bing", "Phoebe Buffay"]
+
+# write your for loop here
+for index in range(len(usernames)):
+    name = usernames[index].lower().replace(' ', '_')
+    usernames[index] = name
+
+print(usernames)
