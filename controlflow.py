@@ -170,3 +170,14 @@ for index in range(len(usernames)):
     usernames[index] = name
 
 print(usernames)
+
+# Test V
+tokens = ['<greeting>', '<Hello World!>', '</greeting>']
+count = 0
+
+# write your for loop here
+for token in tokens:
+    if '<' in token and '>' in token:
+        count += 1
+
+print(count)
