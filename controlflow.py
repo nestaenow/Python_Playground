@@ -191,4 +191,6 @@ for item in items:
 html_str += '</ul>'
 print(html_str)
 
+# Test  VII 
+# The code below produces an empty array
 print(list(range(0,-5)))
