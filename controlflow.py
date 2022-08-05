@@ -258,6 +258,6 @@ for key in basket_items:
         fruit_count += basket_items[key]
 #if the key is not in the list, then add to the not_fruit_count
     elif key not in fruits:
-        not_fruit_count += basket_items[key]
+        not_fruit_count += basket_items[key] # Instead of using basket_items[key] you can use the items method right from the for loop to access both the keys and values in the dictionary
 
 print(fruit_count, not_fruit_count)
