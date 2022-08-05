@@ -273,4 +273,7 @@ current = 1
 while current <= number:
     product *= current
     current += 1
+# Factorial of a number with for loop
+# for num in range(2, number + 1):
+#    product *= num
 print(product)
