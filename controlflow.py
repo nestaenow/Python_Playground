@@ -194,3 +194,14 @@ print(html_str)
 # Test  VII 
 # The code below produces an empty array
 print(list(range(0,-5)))
+
+# Test VIII
+book_title = ['great', 'expectations', 'the', 'adventures', 'of', 'sherlock', 'holmes',
+              'the', 'great', 'gasby', 'hamlet', 'adventures', 'of', 'huckleberry', 'fin']
+word_counter = {}
+for word in book_title:
+    if word not in word_counter:
+        word_counter[word] = 1
+    else:
+        word_counter[word] += 1
+print(word_counter)
