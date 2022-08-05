@@ -215,3 +215,19 @@ word_counter = {}
 for word in book_title:
     word_counter[word] = word_counter.get(word, 0) + 1
 print(word_counter)
+
+# Test X
+cast = {
+    "Jerry Seinfeld": "Jerry Seinfeld",
+    "Julia Louis-Dreyfus": "Elaine Benes",
+    "Jason Alexander": "George Costanza",
+    "Michael Richards": "Cosmo Kramer"
+}
+
+print("Iterating through keys:\n")
+for key in cast:
+    print(key + '\n')
+
+print("\nIterating through keys and values:\n")
+for key, value in cast.items():
+    print("{} : {}\n".format(key, value))
