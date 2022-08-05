@@ -261,3 +261,16 @@ for key in basket_items:
         not_fruit_count += basket_items[key] # Instead of using basket_items[key] you can use the items method right from the for loop to access both the keys and values in the dictionary
 
 print(fruit_count, not_fruit_count)
+
+
+# WHILE Loops
+# Test I
+# Factorial of a number
+number = 6
+product = 1
+current = 1
+
+while current <= number:
+    product *= current
+    current += 1
+print(product)
