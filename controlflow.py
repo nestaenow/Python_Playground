@@ -246,3 +246,18 @@ for key in basket_items:
         # This gets the value of the key and adds it to result
         result += basket_items[key]
 print(result)
+
+# Test XII
+# Counting bot fruits and non-fruits
+fruit_count, not_fruit_count = 0, 0
+
+#Iterate through the dictionary
+for key in basket_items:
+    #if the key is in the list of fruits, add to fruit_count.
+    if key in fruits:
+        fruit_count += basket_items[key]
+#if the key is not in the list, then add to the not_fruit_count
+    elif key not in fruits:
+        not_fruit_count += basket_items[key]
+
+print(fruit_count, not_fruit_count)
