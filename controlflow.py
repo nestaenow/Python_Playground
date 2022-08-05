@@ -232,3 +232,17 @@ for key in cast:
 print("\nIterating through keys and values:\n")
 for key, value in cast.items():
     print("{} : {}\n".format(key, value))
+
+# Test XI
+# Fruit Basket - Task 1
+result = 0
+basket_items = {'apples': 4, 'oranges': 19, 'kites': 3, 'sandwiches': 8}
+fruits = ['apples', 'oranges', 'pears', 'peaches', 'grapes', 'bananas']
+
+# Iterate through the dictionary
+for key in basket_items:
+    # if the key is in the list of fruits, add the value (number of fruits) to result
+    if key in fruits:
+        # This gets the value of the key and adds it to result
+        result += basket_items[key]
+print(result)
