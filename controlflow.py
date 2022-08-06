@@ -419,3 +419,16 @@ for num in check_prime:
 # otherwise keep checking until we've searched all possible factors, and then declare it prime
         if i == num - 1:
             print("{} IS a prime number".format(num))
+
+
+# Zip & Enumerate
+letters = ['a', 'b', 'c']
+nums = [1, 2, 3]
+
+for letter, num in zip(letters, nums):
+    print("{}: {}".format(letter, num))
+
+# enumerate
+letters = ['a', 'b', 'c', 'd', 'e']
+for i, letter in enumerate(letters):
+    print(i, letter)
