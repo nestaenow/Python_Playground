@@ -322,7 +322,7 @@ print(nearest_square)
 print(squares)
 
 # Test III
-# Sum of odd numbers
+# Sum of odd numbers found in the first five indexes
 num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542,
             87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
 sum_of_odds = 0
