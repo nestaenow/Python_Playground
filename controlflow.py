@@ -275,6 +275,7 @@ while current <= number:
     current += 1
 # Factorial of a number with for loop
 # for num in range(2, number + 1):
+# The start variable starts at 2 here just to make the code succinct since any number times 1 is the number
 #    product *= num
 print(product)
 
@@ -319,3 +320,14 @@ nearest_square = num**2
 
 print(nearest_square)
 print(squares)
+
+# Test III
+# Sum of odd numbers
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542,
+            87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
+sum_of_odds = 0
+
+for num in range(5):
+    if num_list[num] % 2 != 0:
+        sum_of_odds += num_list[num]
+print(sum_of_odds)
