@@ -508,6 +508,5 @@ scores = {
     "Jerry Smith": 23,
     "Beth Smith": 98
 }
-
 passed = [name for name, score in scores.items() if score >= 65]
 print(passed)
