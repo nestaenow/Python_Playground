@@ -501,7 +501,7 @@ print(multiples_3)
 
 # Test III
 # Filter Names by Scores
-# Dictionary 
+# Dictionary of students and scores
 scores = {
     "Rick Sanchez": 70,
     "Morty Smith": 35,
