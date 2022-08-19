@@ -7,7 +7,8 @@ def party_planner(cookies, people):
         num_each = cookies // people
         leftovers = cookies % people
     except ZeroDivisionError:
-        print('Number of people is less than zero! Enter another number')
+        print("Oops, you entered 0 people will be attending.")
+        print("Please enter a good number of people for a party.")
 
     return(num_each, leftovers)
 
