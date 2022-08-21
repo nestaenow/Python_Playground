@@ -3,7 +3,5 @@ def my_range(x):
     while i < x:
         yield i
         i += 1
-
-
 for x in my_range(5):
     print(x)
