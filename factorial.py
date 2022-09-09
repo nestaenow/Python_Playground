@@ -3,3 +3,4 @@ def factorial(n):
         return 1
     else:
         return factorial(n-1) * n
+factorial(4)
