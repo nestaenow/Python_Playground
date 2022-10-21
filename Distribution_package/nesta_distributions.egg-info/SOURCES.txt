@@ -1,0 +1,10 @@
+setup.py
+nesta_distributions/Binomialdistribution.py
+nesta_distributions/Gaussiandistribution.py
+nesta_distributions/Generaldistribution.py
+nesta_distributions/__init__.py
+nesta_distributions.egg-info/PKG-INFO
+nesta_distributions.egg-info/SOURCES.txt
+nesta_distributions.egg-info/dependency_links.txt
+nesta_distributions.egg-info/not-zip-safe
+nesta_distributions.egg-info/top_level.txt
